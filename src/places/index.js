@@ -3,7 +3,7 @@ const router = express.Router();
 const axios = require('axios');
 const auth = require('../../middleware/auth');
 
-router.get('/places', async (req, res) => {
+router.get('/places',auth, async (req, res) => {
     
     try {
         
