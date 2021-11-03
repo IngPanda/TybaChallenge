@@ -35,7 +35,7 @@
     "morgan": "^1.9.1",
     "request": "^2.88.0",
     "timeago.js": "^4.0.0-beta.2",
-    "validator": "^12.1.0"
+    "validator": "^13.7.0"
   },
   "devDependencies": {
     "nodemon": "^1.18.10"
